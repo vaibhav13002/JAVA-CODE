@@ -1,0 +1,9 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.code.generators.copyJsonPropertyAnnotationsFromVariablesToSettersGetters": true,
+    "java.code.generators.includeFluentWithSettersGetters": true,
+    "java.code.generators.generateEvenIfExists": true,
+    "java.code.generators.includeGeneratedAnnotation": true,
+    "editor.hover.above": true,
+    "editor.inlineSuggest.showToolbar": "onHover"
+}

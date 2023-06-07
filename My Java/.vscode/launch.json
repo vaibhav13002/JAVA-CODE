@@ -1,0 +1,154 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ObjectDemo",
+            "request": "launch",
+            "mainClass": "ObjectDemo",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "PS_chpt4",
+            "request": "launch",
+            "mainClass": "PS_chpt4",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "Rock_paper_scissor",
+            "request": "launch",
+            "mainClass": "Rock_paper_scissor",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "arrays",
+            "request": "launch",
+            "mainClass": "arrays",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "c1",
+            "request": "launch",
+            "mainClass": "c1",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "cbse_percentage",
+            "request": "launch",
+            "mainClass": "cbse_percentage",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "chpt2_practise",
+            "request": "launch",
+            "mainClass": "chpt2_practise",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "conditionals",
+            "request": "launch",
+            "mainClass": "conditionals",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "cwh_10_resultingarithmatic",
+            "request": "launch",
+            "mainClass": "cwh_10_resultingarithmatic",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "cwh_14_strings",
+            "request": "launch",
+            "mainClass": "cwh_14_strings",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "elseif",
+            "request": "launch",
+            "mainClass": "elseif",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "first",
+            "request": "launch",
+            "mainClass": "first",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "input",
+            "request": "launch",
+            "mainClass": "input",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "logical",
+            "request": "launch",
+            "mainClass": "logical",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "loops_21",
+            "request": "launch",
+            "mainClass": "loops_21",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "loops_practice",
+            "request": "launch",
+            "mainClass": "loops_practice",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "operators_cwh_chp2",
+            "request": "launch",
+            "mainClass": "operators_cwh_chp2",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "percentage",
+            "request": "launch",
+            "mainClass": "percentage",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "ps1",
+            "request": "launch",
+            "mainClass": "ps1",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "switch_cw",
+            "request": "launch",
+            "mainClass": "switch_cw",
+            "projectName": "My Java_3cf760ba"
+        }
+    ]
+}
