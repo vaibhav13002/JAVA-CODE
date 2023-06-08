@@ -7,24 +7,30 @@ class Mobile{
     {
         System.out.println(name+":"+price+":"+type);
     }
+    static void check()
+    {
+        System.out.println("Printing without creating object");
+    }
 }
 public class StaticKey {
     public static void main(String[] args) {
+
+        new check();
      
         
-        Mobile obj1=new Mobile();
-        obj1.price=500;
-        obj1.name="Apple";
-        obj1.type="Smartphone";
+        // Mobile obj1=new Mobile();
+        // obj1.price=500;
+        // obj1.name="Apple";
+        // obj1.type="Smartphone";
 
-        Mobile obj2=new Mobile();
-        obj2.price=800;
-        obj2.name="Samsung";
-        obj2.type="Smartphone";
+        // Mobile obj2=new Mobile();
+        // obj2.price=800;
+        // obj2.name="Samsung";
+        // obj2.type="Smartphone";
 
-        obj1.type="phone"; 
-        obj1.show();
-        obj2.show();
+        // obj1.type="phone"; 
+        // obj1.show();
+        // obj2.show();
         
     }
 }

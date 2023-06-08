@@ -8,10 +8,10 @@ class A{
         age=256;
         name="Ray";
     }
-    public A(int a,String n)
+    public A(int age,String name)
     {
-        age=a;
-        name=n;
+        this.age=age;
+        this.name=name;
     }
 
     public int getage()
