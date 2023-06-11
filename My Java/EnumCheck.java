@@ -1,7 +1,8 @@
 enum Laptop{
     sony(200),Samsung(400),lenevo(500),apple(600),dell(700),hp(800);
 
-    private int price;
+    
+private int price;
 private Laptop(int price){
     this.price=price;
 }
