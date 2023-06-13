@@ -24,3 +24,5 @@ public class Except_ion {
     }
 System.out.println(j);}
 }
+
+
