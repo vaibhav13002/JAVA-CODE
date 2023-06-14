@@ -6,5 +6,6 @@
     "java.code.generators.includeGeneratedAnnotation": true,
     "editor.hover.above": true,
     "editor.inlineSuggest.showToolbar": "onHover",
-    "C_Cpp.errorSquiggles": "enabledIfIncludesResolve"
+    "C_Cpp.errorSquiggles": "enabledIfIncludesResolve",
+    "typescript.experimental.aiQuickFix": true
 }
