@@ -10,6 +10,7 @@ public class Hashmap {
         students.put("abin", 25);
         System.out.println(students);
         
+        
         for( String n : students.keySet() ){
             System.out.println(n+":"+students.get(n));
         }
