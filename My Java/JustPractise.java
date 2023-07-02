@@ -1,45 +1,49 @@
 import java.util.Scanner;
+import java.util.function.BinaryOperator;
 
 public class JustPractise {
     public static void main(String[] args) {
-int a = 0;
+// int a = 0;
 
-        switch(str){
+//         switch(str){
 
-            case "Character" : 
+//             case "Character" : 
 
-                a = 1;
+//                 a = 1;
 
-                break;
+//                 break;
 
-            case "Integer" :
+//             case "Integer" :
 
-                a = 4;
+//                 a = 4;
 
-                break;
+//                 break;
 
-            case "Double" :
+//             case "Double" :
 
-                a = 8;
+//                 a = 8;
 
-                break;
+//                 break;
 
-            case "Float" :
+//             case "Float" :
 
-                a =  4;
+//                 a =  4;
 
-                break;
+//                 break;
 
-            case "Long" :
+//             case "Long" :
 
-                a = 8;
+//                 a = 8;
 
-                break;
+//                 break;
 
-        }
+//         }
+// return -1;de
+/////////////////////////////////////////
 
-        // return -1;
-
+      int x=2;
+      Integer.toBinaryString(x);
+      System.out.println(x);
     }
 
 }
