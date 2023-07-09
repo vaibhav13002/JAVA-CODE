@@ -23,6 +23,7 @@ public class ArrayListPratctise {
         for(int i=0;i<arr1.size();i++){
         System.out.println(Integer.valueOf(i));
         }
+        
 
           
 
