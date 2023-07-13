@@ -7,5 +7,8 @@
     "editor.hover.above": true,
     "editor.inlineSuggest.showToolbar": "onHover",
     "C_Cpp.errorSquiggles": "enabledIfIncludesResolve",
-    "typescript.experimental.aiQuickFix": true
+    "typescript.experimental.aiQuickFix": true,
+    "liveServer.settings.port": 0,
+    "typescript.tsserver.useSyntaxServer": "auto",
+    "java.trace.server": "messages"
 }
