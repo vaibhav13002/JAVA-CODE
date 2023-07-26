@@ -2,7 +2,8 @@ public class BinarySearch {
     public static void main(String[] args) {
         int[] arr={-4,1,2,13,32,45,56,65,71,78,79,88,95};
         int target=71;
-        System.out.println(binarysearch(arr, target));   
+        int ans=binarysearch(arr, target);
+        System.out.println(ans);   
     }
     static int binarysearch(int[] arr, int target){
         int start=0;
@@ -11,14 +12,14 @@ public class BinarySearch {
         while(start <= end){
             int mid=start+(end-start)/2;
 
-            if(target < mid){    //yaha value compare horha h coz array is sorted
-                end=arr[mid]-1;
+            if(target < arr[mid]){    //yaha value compare horha h coz array is sorted
+                end=mid-1;
             }
-            else if(target > mid){
-                start=arr[mid] +1;
+            else if(target > arr[mid]){
+                start=mid +1;
             }
             else{
-                return mid;
+                return mid; 
             }
         }
         return -1;
