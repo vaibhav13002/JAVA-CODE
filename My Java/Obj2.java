@@ -10,7 +10,7 @@ class Sun
 public class Obj2 {
     public static void main(String[] args) {
         Sun obj=new Sun();
-    // obj.stationaryMy();
+    obj.stationaryMy();
     String str =obj.Music(5);
     System.out.println(str);
     }
