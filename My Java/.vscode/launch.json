@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FirstAndLastPositionBST",
+            "request": "launch",
+            "mainClass": "FirstAndLastPositionBST",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "FloorBinarySearch",
+            "request": "launch",
+            "mainClass": "FloorBinarySearch",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "CeilingBinarySearch",
+            "request": "launch",
+            "mainClass": "CeilingBinarySearch",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchDesc",
+            "request": "launch",
+            "mainClass": "BinarySearchDesc",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
             "name": "HelloWorld",
             "request": "launch",
             "mainClass": "HelloWorld",
