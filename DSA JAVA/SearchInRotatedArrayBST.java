@@ -17,12 +17,12 @@ public class SearchInRotatedArrayBST {
                     else
                         start = mid + 1; //Right me check ,,bst lagega
                 } 
-                // else {   
-                //     if (nums[mid] <= target && target <= nums[end])
-                //         start = mid + 1;
-                //     else
-                //         end = mid - 1;
-                // }
+                else {   // A Part vaise run tho nhi horha but if ka else kuch tho dalna padega na
+                    if (nums[mid] <= target && target <= nums[end])
+                        start = mid + 1;
+                    else
+                        end = mid - 1;
+                }
             }
             return -1;
         }
