@@ -11,13 +11,13 @@ public class SearchInRotatedArrayBST {
                 if (nums[mid] == target)   //jab mid wala he target ho
                     return mid;  //0 1 2 3 4 5 6  (index)
                     // int[] nums={4,5,6,7,0,1,2};  target=1;
-                if (nums[start] <= nums[mid]) { //Left // agar mid=target nhi h tho hum left and right me dhunengey
+                if (nums[start] <= nums[mid]) { //Left..Ascending me mid lie kr rha h // agar mid=target nhi h tho hum left and right me dhunengey
                     if (nums[start] <= target && target <= nums[mid])
                         end = mid - 1;
                     else
                         start = mid + 1; //Right me check ,,bst lagega
                 } 
-                else {   // A Part vaise run tho nhi horha but if ka else kuch tho dalna padega na
+                else {  //isme right m // A Part vaise run tho nhi horha but if ka else kuch tho dalna padega na
                     if (nums[mid] <= target && target <= nums[end])
                         start = mid + 1;
                     else
