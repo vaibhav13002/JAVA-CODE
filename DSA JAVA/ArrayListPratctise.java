@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.Collections;
+
 public class ArrayListPratctise {
     public static void main(String[] args) {
         ArrayList<Integer> arr1 = new ArrayList<Integer>();

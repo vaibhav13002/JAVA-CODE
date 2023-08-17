@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
+
 public class LinearSearch {
     public static void main(String[] args) {
         int[] nums={1,32,45,22,66,43,-23,99};
