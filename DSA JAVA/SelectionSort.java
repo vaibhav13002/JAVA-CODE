@@ -4,10 +4,10 @@ public class SelectionSort {
             System.out.print(arr[i]+" ");
         }
         System.out.println();
-    }
+    }   
     public static void main(String[] args) {
         int[] arr={8,4,7,2,9,1,0};
-
+ 
         for(int i=0;i<arr.length-1;i++){
             int smallest=i;
             for(int j=i+1;j<arr.length;j++){
