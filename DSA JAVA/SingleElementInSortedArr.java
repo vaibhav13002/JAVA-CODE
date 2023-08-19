@@ -7,7 +7,6 @@ public class SingleElementInSortedArr {
     public static int SearchSingle(int[] nums){
         int start=0;
         int end=nums.length-1;
-
         while(start < end){
             int mid=start+(end-start)/2;
             if(mid % 2==1){
