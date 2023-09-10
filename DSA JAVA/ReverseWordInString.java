@@ -17,6 +17,6 @@ public class ReverseWordInString {
         }
 
         // Append the first word to the output (without trailing space)
-        return out      ;
+        return out;
     }
 }
