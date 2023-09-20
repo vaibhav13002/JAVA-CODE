@@ -12,22 +12,27 @@ public class ReverseNumRecur {
 //Sometimes we need some additional variables in the argument
 // in that case make another function //helper function
 
-static int rev1(int n){
+static int rev1(int n){  //this is our main method jisme hume ek helper function ko all kr rhe h
     int digits=(int)(Math.log10(n)+1);
     return helper(n, digits);
 } 
-    static int helper(int n, int digits) {
-        if(n%10==n){
+    static int helper(int n, int digits) { //this is our helper function
+        if(n%10==n){ //if single element is there return that element
             return n;
         }
         int rem=n%10;
         return rem * (int)Math.pow(10, digits-1) + helper(n/10, digits-1);
-}
+}   
+//To check Palindrome number
+    static boolean palind(int n){
+        return n==rev1(n);
+    }
+
 
     public static void main(String[] args) {
         // rev(1542);
         // System.out.println(sum);
-        System.out.println(rev1(1234));
+        System.out.println(palind(1234321));
     }
 }
 
