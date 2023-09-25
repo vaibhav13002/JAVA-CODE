@@ -1,6 +1,6 @@
 package Pattern_Recursion;
 import java.util.* ;
-
+//merge sort using recursion apna college
 public class MergeSort {
     public static void main(String[] args) {
         int[] arr = {2,4,1,6,5,3};
