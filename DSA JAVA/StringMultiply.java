@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class StringMultiply {
     public static void main(String[] args) {
         String s = "abccbccba";
@@ -14,13 +12,12 @@ public class StringMultiply {
         }
         return s;
         }
-        
-        
+    
     public static String rem(String s){
-   StringBuilder str = new StringBuilder();
-  int n = s.length();
+    StringBuilder str = new StringBuilder();
+    int n = s.length();
     int i =0;
-  while(i<n){
+     while(i<n){
       if(i<n-1 && s.charAt(i)==s.charAt(i+1)){
           while(i<n-1 && s.charAt(i)==s.charAt(i+1) ){
               i++;
