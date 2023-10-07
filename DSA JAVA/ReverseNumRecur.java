@@ -12,7 +12,7 @@ public class ReverseNumRecur {
 //Sometimes we need some additional variables in the argument
 // in that case make another function //helper function
 
-static int rev1(int n){  //this is our main method jisme hume ek helper function ko all kr rhe h
+static int rev1(int n){  //this is our main method jisme hume ek helper function ko call kr rhe h
     int digits=(int)(Math.log10(n)+1);
     return helper(n, digits);
 } 
@@ -23,6 +23,8 @@ static int rev1(int n){  //this is our main method jisme hume ek helper function
         int rem=n%10;
         return rem * (int)Math.pow(10, digits-1) + helper(n/10, digits-1);
 }   
+
+
 //To check Palindrome number
     static boolean palind(int n){
         return n==rev1(n);

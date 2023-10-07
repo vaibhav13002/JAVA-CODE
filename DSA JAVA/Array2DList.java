@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+
 import java.util.Scanner;
 public class Array2DList {
     public static void main(String[] args) {
@@ -18,5 +19,6 @@ public class Array2DList {
             }
         }
         System.out.println(list);
+        sc.close();
     }
 }

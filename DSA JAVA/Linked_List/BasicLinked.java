@@ -1,5 +1,6 @@
 package Linked_List;
 
+
 public class BasicLinked {
     Node head;
     private int size;
@@ -15,8 +16,8 @@ public class BasicLinked {
 
         Node(String data) {
             this.data = data; // value passed as an argument
-            this.next = null; // each new node you will create will point to null //yeh call hoga jab bhi naya
-                              // node create hoga
+            this.next = null; // each new node you will create will point to null //yeh call hoga jab bhi naya node create hoga
+    
             size++;
         }
     }

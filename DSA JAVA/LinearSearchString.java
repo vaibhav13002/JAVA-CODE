@@ -15,6 +15,7 @@ public class LinearSearchString {
         //System.out.println(name.charAt(i)); //for each ki tarah ek ek ko pakdega
         
         }
+        sc.close();  //baad me add hua h a
     }
     static boolean CharSearch(String str,char target){
         if(str.length()==0){

@@ -14,6 +14,7 @@ public class RotateBy1 {
             arr[i] = arr[j];
             arr[j] = temp;
             i++;
+            j--;
         }
     }
     //jo start ka ek step me right me jayega o next step me vapas ayega jiske vajah se next wala right me chala jayega
