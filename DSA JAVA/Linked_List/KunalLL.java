@@ -62,6 +62,34 @@ public void AddIndex(int val, int index){
        }                                 //  this.next = next;
                                            // }         //Node next he bata rha h ki new node kisko point krna chayeh to maintain continuity
 ////////////////////
+public int DeleteFirst(){
+    int val=head.value; 
+    head=head.next;
+    if(head==null){
+        tail=null;
+    }
+    size--;
+    return val;
+}
+///////////////////
+public Node get(int index){
+    Node node = head;
+    for(int i=0;i<index;i++){
+        node =node.next;
+    }
+    return node;
+}
+public int DeleteLast(){
+    if(size<=1){
+        return DeleteFirst();
+    }
+    Node secondlast=get(size-2); //size 0 se nhi 1 se caount hota h and index 0 se
+    int val=tail.value;
+    tail=secondlast;
+    tail.next=null;
+    return val;
+}
+//////////////////
 public void Display(){
     Node temp=head; //new pointer which will also point head
     while(temp !=null){
@@ -80,5 +108,8 @@ public void Display(){
         list.InsertLast(99);
         list.AddIndex(100, 2);
         list.Display();    
+        list.DeleteFirst();
+        list.DeleteLast();
+        list.Display();
     }
 }

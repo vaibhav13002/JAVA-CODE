@@ -66,7 +66,7 @@ public class BasicLinked {
             return;
         }
         size--;
-        if (head.next == null) { // agr sirg single node h tho ussey he delete krdengey
+        if (head.next == null) { // agr sirf single node h tho ussey he delete krdengey
             head = null;
             return;
         }
