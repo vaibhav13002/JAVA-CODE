@@ -1,11 +1,11 @@
 package Linked_List;
 
-public class KunalLL {
+public class KunalSLL {
 
         private Node head;
         private Node tail;
         private int size;
-    public KunalLL(){
+    public KunalSLL(){
     this.size=0;
     }
 
@@ -31,7 +31,7 @@ public void InsertFirst(int val){
     }
     size++;
 }
-//////////////
+//////////////InsertLast
 public void InsertLast(int val){
     if(tail==null){
         InsertFirst(val); //agr tail null h tho iska mtlb no node is there so we call the normal InsertFirst method tho insert a new node
@@ -97,11 +97,11 @@ public int delete(int index){
     if(index==size-1){
         return DeleteLast();
     }
-    Node prev=get(index-1);
-    int val=prev.next.value;  //jo remove kr rhe h usko ek temp me store kr rhe h
+    Node prev=get(index-1); //prev variable is getting created
+    int val=prev.next.value;  //jo remove kr rhe h usko ek temp me store kr rhe h// return typ int h so Value he ayega 
 
     prev.next=prev.next.next; //new link is created
-    return val;
+    return val;  //isike vajah se print horha h jo hum remove kr rhe h o
 }
 /////////////////Find the index
 public Node find(int value){
@@ -125,7 +125,7 @@ public void Display(){
 }
 
     public static void main(String[] args) {
-        KunalLL list = new KunalLL();
+        KunalSLL list = new KunalSLL();
         list.InsertFirst(1);
         list.InsertFirst(2); 
         list.InsertFirst(3); 
@@ -133,9 +133,10 @@ public void Display(){
         list.InsertLast(99);
         list.AddIndex(100, 2);
         list.Display();    
-        list.DeleteFirst();
+        // list.DeleteFirst();
         System.out.println(list.DeleteLast());  //issey dikhega int val kyu use kiya h....jo remove kr rhe h usko print krna ya return krna
-        list.delete(1);
+        list.Display();
+        System.out.println(list.delete(1));
        
         list.Display();
         list.find(2);//recheck
