@@ -60,7 +60,7 @@ public void AddIndex(int val, int index){
       temp.next=node;                      // public Node(int value, Node next) {
       size++;                              //  this.value = value;
        }                                 //  this.next = next;
-                                           // }         //Node next he bata rha h ki new node kisko point krna chayeh to maintain continuity
+                                           // } //Node next he bata rha h ki new node kisko point krna chayeh to maintain continuity
 ////////////////////
 public int DeleteFirst(){
     int val=head.value; 
@@ -77,8 +77,9 @@ public Node get(int index){
     for(int i=0;i<index;i++){
         node =node.next;
     }
-    return node;
+    return node;  //it will return refrence...memory location in java
 }
+///////////////////
 public int DeleteLast(){
     if(size<=1){
         return DeleteFirst();
@@ -100,7 +101,7 @@ public int delete(int index){
     Node prev=get(index-1); //prev variable is getting created
     int val=prev.next.value;  //jo remove kr rhe h usko ek temp me store kr rhe h// return typ int h so Value he ayega 
 
-    prev.next=prev.next.next; //new link is created
+    prev.next=prev.next.next; //new link is created and next wala remove hogya
     return val;  //isike vajah se print horha h jo hum remove kr rhe h o
 }
 /////////////////Find the index

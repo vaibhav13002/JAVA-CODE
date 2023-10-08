@@ -45,7 +45,7 @@ public class DLL {
         last.next=node;
         node.prev=last;
     }
-///////////////// adding after a particular value
+///////////////// adding after a particular value//for index it is same as SLL
     public Node find(int value){
         Node node = head;
         while(node !=null){

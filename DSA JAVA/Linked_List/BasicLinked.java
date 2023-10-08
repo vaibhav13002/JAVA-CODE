@@ -24,8 +24,8 @@ public class BasicLinked {
 
 // Add at the start of the linked list
     public void addFirst(String data) {
-        Node newNode = new Node(data); // if there is no node present
-        if (head == null) {
+        Node newNode = new Node(data); 
+        if (head == null) {// if there is no node present
             head = newNode;
             return;
         }
