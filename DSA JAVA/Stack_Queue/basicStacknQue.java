@@ -14,9 +14,10 @@ public class basicStacknQue {
         st.push(4);
         st.push(5);
 
-        // System.out.println(st);
-        // st.pop();
-        // System.out.println(st);
+        System.out.println(st);
+        st.pop();
+        System.out.println(st);
+        System.out.println(st.isEmpty());
 
         Queue<Integer> queue=new LinkedList<>();
         queue.add(1);
