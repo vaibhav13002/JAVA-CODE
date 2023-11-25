@@ -10,6 +10,7 @@ public class hashmap {
         map.put("China", 150);
         map.put("USA", 50);
         map.put("US", 30);
+        map.entrySet()
 
         System.out.println(map);
 
