@@ -1,7 +1,7 @@
 package ArrayList;
 public class FindDuplicateInArrayCyclic {
     public static void main(String[] args) {
-        int[] nums={1,3,4,5,3};
+        int[] nums={1,3,4,5,4};
         System.out.println(Check(nums));
     }
     static int Check(int[] nums){
@@ -21,8 +21,6 @@ public class FindDuplicateInArrayCyclic {
                 }
         }
         return -1;
-  
-    
     }
     static void swap(int[] nums, int i, int correct) {
         int temp=nums[i];

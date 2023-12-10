@@ -24,6 +24,7 @@ public class PrefixSum {
         System.out.println("Enter array size");
         int n=sc.nextInt();
         int[] arr=new int[n];
+       
 
         System.out.println("Enter " +n+ " Elements in array" );
         for(int i=0; i<n; i++){
@@ -34,5 +35,6 @@ public class PrefixSum {
 
         int[] p=PrefixArraySum(arr);
         System.out.println(Arrays.toString(p));
+        
     }
 }

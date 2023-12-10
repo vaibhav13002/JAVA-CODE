@@ -7,6 +7,7 @@ public class MountainOfArray {
 
         while(start<end){
             int mid=start + (end-start)/2;
+            
             if(arr[mid]>arr[mid+1]){  //You Are in Decreasing side
                 end=mid;
             }

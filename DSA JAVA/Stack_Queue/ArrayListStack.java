@@ -29,14 +29,14 @@ public class ArrayListStack {
         }
     }
     public static void main(String[] args) {
-        stack s=new stack();
+        // stack s=new stack();
         stack.push(1);
         stack.push(2);  //s.push() bhi kr sktey h put static ka issue aarha h
         stack.push(3);
         stack.push(4);
         stack.push(5);       
         while(!stack.isEmpty()){
-            System.out.print(s.peek()+"->");
+            System.out.print(stack.peek()+"->");
             stack.pop();
         }
     }

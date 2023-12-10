@@ -3,7 +3,8 @@ package BinarySearch;
 
 public class SmallestNoInRotatedArrayBST {
     public static void main(String[] args) {
-        int[] nums={3,4,5,1,2};
+        // int[] nums={3,4,5,1,2};
+        int[] nums={3,8,1,7,22,6,44}; // failed ...only works in sorted and rotated
         
         System.out.println(SearchInRotated(nums));
 }

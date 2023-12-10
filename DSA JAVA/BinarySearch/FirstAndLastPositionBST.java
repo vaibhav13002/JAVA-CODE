@@ -13,7 +13,6 @@ public class FirstAndLastPositionBST {
 
         return ans;
     }
-
     static int search(int[] nums,int target,boolean FindStartIndex){
         int ans=-1;
         int start=0;

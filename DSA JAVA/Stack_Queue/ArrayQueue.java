@@ -8,7 +8,7 @@ public class ArrayQueue {
 
         public Queue(int n){
             arr=new int[n];
-            this.size=n;
+            Queue.size=n;
         }
         public static boolean isEmpty(){
             return rear == -1;
@@ -47,8 +47,8 @@ public class ArrayQueue {
     }
     public static void main(String[] args) {
 
-        Queue q =new Queue(4);
-        // q.add(1);
+        // Queue q =new Queue(4);
+        Queue.add(1);
         // q.add(2);
         // q.add(3);
         // q.add(4);

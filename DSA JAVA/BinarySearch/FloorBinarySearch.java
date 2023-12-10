@@ -1,7 +1,7 @@
 package BinarySearch;
 public class FloorBinarySearch {
     public static void main(String[] args) {
-        int[] arr={-4,1,2,13,32,45,56,65,71,78,79,88,95};
+        int[] arr={-4,1,2,78,79,88,95};
         int target=-2;
         int ans=binarysearch(arr, target);
         System.out.println(ans);   

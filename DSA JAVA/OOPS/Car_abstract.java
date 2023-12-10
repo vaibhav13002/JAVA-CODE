@@ -4,7 +4,7 @@ public class Car_abstract extends AbstractDemo {
 
     public Car_abstract(int age) {
         super(age);
-        //TODO Auto-generated constructor stub
+       
     }
 
     @Override
