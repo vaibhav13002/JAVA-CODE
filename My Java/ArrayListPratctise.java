@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+
 public class ArrayListPratctise {
     public static void main(String[] args) {
         ArrayList<Integer> arr1 = new ArrayList<Integer>();
@@ -17,7 +18,7 @@ public class ArrayListPratctise {
         // System.out.println(arr.equals(arr1));
         // Collections.sort(arr);
         // System.out.println("Sorted ascending: "+ arr);
-        // Collections.sort(arr, Collections.reverseOrder());
+        Collections.sort(arr, Collections.reverseOrder());
         // System.out.println("Sorted in Descend: "+arr);
 
         for(int i=0;i<arr1.size();i++){

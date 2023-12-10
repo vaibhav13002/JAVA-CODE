@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayMaxValue",
+            "request": "launch",
+            "mainClass": "ArrayMaxValue",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "Encaps",
+            "request": "launch",
+            "mainClass": "Encaps",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "CountNumberofNumbers",
+            "request": "launch",
+            "mainClass": "CountNumberofNumbers",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListPratctise",
+            "request": "launch",
+            "mainClass": "ArrayListPratctise",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "Soorting2",
+            "request": "launch",
+            "mainClass": "Soorting2",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "Soorting",
+            "request": "launch",
+            "mainClass": "Soorting",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "SearchIn2DArray",
+            "request": "launch",
+            "mainClass": "SearchIn2DArray",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "Array",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "Array3",
+            "request": "launch",
+            "mainClass": "Array3",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "Revision9dec23",
+            "request": "launch",
+            "mainClass": "Revision9dec23",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
+            "name": "Array2DList",
+            "request": "launch",
+            "mainClass": "Array2DList",
+            "projectName": "My Java_3cf760ba"
+        },
+        {
+            "type": "java",
             "name": "FirstAndLastPositionBST",
             "request": "launch",
             "mainClass": "FirstAndLastPositionBST",

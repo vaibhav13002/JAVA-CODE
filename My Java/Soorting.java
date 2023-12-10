@@ -38,5 +38,6 @@ public class Soorting {
         // sortArray(obj,obj.length);
         
         System.out.println(obj);
+        System.out.println(com);
     }
 }

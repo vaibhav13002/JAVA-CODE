@@ -1,7 +1,3 @@
-import java.util.Random;
-
-import javax.sound.sampled.SourceDataLine;
-
 public class Array {
     public static void main(String[] args) {
         int arry[][]=new int[3][4];
@@ -10,6 +6,7 @@ public class Array {
 
         for(int i=0;i<3;i++){
             for(int j=0;j<4;j++){
+                // arry[i][j]=Math.ceil(Math.random());
                 arry[i][j]=(int)(Math.random()*10);
         }}
 

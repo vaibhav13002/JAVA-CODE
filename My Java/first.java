@@ -1,5 +1,4 @@
-import java.io.*;
-import java.util.Scanner;
+
   
 class first {
     public static void main (String[] args) {
@@ -16,6 +15,13 @@ class first {
         p= ch+p; //adds each character in front of the existing string
       }
       System.out.println("Reversed word: "+ p);
+
+      StringBuilder cc = new StringBuilder();
+      for(int i= str.length()-1; i>=0; i--){
+        char s= str.charAt(i);
+        cc.append(s);
+      }
+      System.out.println("Jai shre ram : "+cc );
     }
 }
 

@@ -15,7 +15,7 @@ class Mobile{
 public class StaticKey {
     public static void main(String[] args) {
 
-        new check();
+        // new check();
      
         
         // Mobile obj1=new Mobile();

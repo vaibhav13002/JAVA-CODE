@@ -11,6 +11,7 @@ public class Rock_paper_scissor {
         String Paper="p";
         String inp=sc.nextLine();
 
+
         if (r && r) {
             System.out.println("tie");  
         }
