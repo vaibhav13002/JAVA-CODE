@@ -20,7 +20,7 @@ public class BSTin2DArray {
             if (matrix[row][col]==target) {
                 return new int[]{row,col};
             }
-            if(matrix[row][col]<target){
+            else if(matrix[row][col]<target){
                 row++;
             }
             else{

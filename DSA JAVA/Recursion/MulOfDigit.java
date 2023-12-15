@@ -1,7 +1,7 @@
 package Recursion;
 public class MulOfDigit {
     public static void main(String[] args) {
-        System.out.println(Fact(1402));
+        System.out.println(Fact(142));
     }
     public static int Fact(int n){
         if(n==0){

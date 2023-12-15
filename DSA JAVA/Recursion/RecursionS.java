@@ -1,8 +1,9 @@
 package Recursion;
 public class RecursionS {
     public static void main(String[] args) {
-        int result = sum(10);
+        int result = sum(5);
         System.out.println(result);
+
         // fun(5);
     }
         public static int sum(int k) {
@@ -16,8 +17,8 @@ public class RecursionS {
     //     if(n==0){
     //         return;
     //     } 
-    //     System.out.println(n); //pehle print hoga then fibo next ko call krega
-        // fun(n-1);
-        // System.out.println(n); //pehle next ko call krega then print iss hisab se fibo(1) pehle print hoga
+        // System.out.println(n); //pehle print hoga then fibo next ko call krega
+    //     fun(n-1);
+    //     System.out.println(n); //pehle next ko call krega then print iss hisab se fibo(1) pehle print hoga
     // }
 }

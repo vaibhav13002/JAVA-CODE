@@ -1,4 +1,4 @@
-package BinarySearch;
+package Recursion;
 public class BSRecursion {
     public static void main(String[] args) {
         int[] arr={1,2,3,4,5,6};
@@ -17,5 +17,5 @@ public class BSRecursion {
             return search(arr, target, s, m-1);  //function calling
         }
         return search(arr, target, m+1, e); // a else condition h since function me return typr bola h tho kuch ttho return krna padega
-    }
+    }                                       // target> arr[m];
 }

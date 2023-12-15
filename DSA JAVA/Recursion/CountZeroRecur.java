@@ -5,15 +5,15 @@ public class CountZeroRecur {
     //    System.out.println(Fact(10204)); 
 
     }
-    // public static int Fact(int n){
-    //     int count =0;
-    //     if(n==0){
-    //         return count;
-    //     }
-    //     if(n%10==0){
-    //         count++;
-    //     }
-    //     return count + Fact(n/10);
+//     public static int Fact(int n){
+//         int count =0;
+//         if(n==0){
+//             return count;
+//         }
+//         if(n%10==0){
+//             count++;
+//         }
+//         return count + Fact(n/10);
 // }
 //using helper
 

@@ -8,8 +8,8 @@ public class FactorialRecursion {
         if(n<=1){
             return 1;
         }
-        // return n* Fact(n-1);
+        return n* Fact(n-1);
         //sum
-        return n+ Fact(n-1);
+        // return n+ Fact(n-1);
     }
 }

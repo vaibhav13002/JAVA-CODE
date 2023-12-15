@@ -1,4 +1,4 @@
-package Practise;
+package BinarySearch;
 
 public class DecendingBinary {
     public static void main(String[] args) {

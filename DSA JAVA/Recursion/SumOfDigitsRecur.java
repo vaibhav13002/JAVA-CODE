@@ -9,6 +9,7 @@ public class SumOfDigitsRecur {
         }
         // return n* Fact(n-1);
         //sum
+        System.out.println(n);
         return (n%10)+ Fact(n/10);
     }
 }
