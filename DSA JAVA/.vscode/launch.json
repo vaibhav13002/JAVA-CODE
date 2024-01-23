@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DuplicateCharacterString",
+            "request": "launch",
+            "mainClass": "LeetGFG.DuplicateCharacterString",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "PractStepsToZero",
             "request": "launch",
             "mainClass": "Practise.PractStepsToZero",

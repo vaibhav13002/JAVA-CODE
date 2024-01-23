@@ -53,6 +53,7 @@ public class FindElementRecur {
 
 //for multiple same target we can use arraylist
 //not creating new arraylist so dono ke value ko store krlega
+//Adding in the same object with diff reference variable
 static ArrayList<Integer> list= new ArrayList<>();
 public static void PrintIndex1(int[] arr, int target, int index){
         if(target==arr.length-1){
@@ -105,5 +106,6 @@ public static void PrintIndex1a(int[] arr, int target, int index){
             list1.add(0);
         }
         return PrintIndex3(arr, target, index+1, list1);
+        
 }
 }
