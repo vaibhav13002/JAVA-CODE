@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LargestSubarraySumZero",
+            "request": "launch",
+            "mainClass": "LeetGFG.LargestSubarraySumZero",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "DuplicateCharacterString",
             "request": "launch",
             "mainClass": "LeetGFG.DuplicateCharacterString",
