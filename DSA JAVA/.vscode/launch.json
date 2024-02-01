@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArraysofArraysMaxDiff2966",
+            "request": "launch",
+            "mainClass": "LeetGFG.ArraysofArraysMaxDiff2966",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "LargestSubarraySumZero",
             "request": "launch",
             "mainClass": "LeetGFG.LargestSubarraySumZero",
