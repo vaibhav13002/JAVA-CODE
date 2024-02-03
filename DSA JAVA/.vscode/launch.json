@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PartitionArrayforMaximumSum",
+            "request": "launch",
+            "mainClass": "LeetGFG.PartitionArrayforMaximumSum",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "ArraysofArraysMaxDiff2966",
             "request": "launch",
             "mainClass": "LeetGFG.ArraysofArraysMaxDiff2966",
