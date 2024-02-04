@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumWindowSubstring76",
+            "request": "launch",
+            "mainClass": "LeetGFG.MinimumWindowSubstring76",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "MinimumTimetoRevertWordtonitialStateI",
             "request": "launch",
             "mainClass": "Contest.MinimumTimetoRevertWordtonitialStateI",
