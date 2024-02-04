@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumTimetoRevertWordtonitialStateI",
+            "request": "launch",
+            "mainClass": "Contest.MinimumTimetoRevertWordtonitialStateI",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "PartitionArrayforMaximumSum",
             "request": "launch",
             "mainClass": "LeetGFG.PartitionArrayforMaximumSum",
