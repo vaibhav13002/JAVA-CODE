@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CloneStackWithoutExtraSpace",
+            "request": "launch",
+            "mainClass": "LeetGFG.CloneStackWithoutExtraSpace",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "MinimumWindowSubstring76",
             "request": "launch",
             "mainClass": "LeetGFG.MinimumWindowSubstring76",
