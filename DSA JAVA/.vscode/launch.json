@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maxPalindromesAfterOperations",
+            "request": "launch",
+            "mainClass": "Contest.maxPalindromesAfterOperations",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
+            "name": "SubarraysThatMatchPattern",
+            "request": "launch",
+            "mainClass": "Contest.SubarraysThatMatchPattern",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "CloneStackWithoutExtraSpace",
             "request": "launch",
             "mainClass": "LeetGFG.CloneStackWithoutExtraSpace",
