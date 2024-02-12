@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RecursiveSequence",
+            "request": "launch",
+            "mainClass": "LeetGFG.RecursiveSequence",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "maxPalindromesAfterOperations",
             "request": "launch",
             "mainClass": "Contest.maxPalindromesAfterOperations",
