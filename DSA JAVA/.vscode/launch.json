@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortingHashmap",
+            "request": "launch",
+            "mainClass": "HashSet.SortingHashmap",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
+            "name": "IterationExample2",
+            "request": "launch",
+            "mainClass": "HashSet.IterationExample2",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
+            "name": "IteratorWorking",
+            "request": "launch",
+            "mainClass": "HashSet.IteratorWorking",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "RecursiveSequence",
             "request": "launch",
             "mainClass": "LeetGFG.RecursiveSequence",
