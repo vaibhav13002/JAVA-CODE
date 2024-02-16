@@ -42,7 +42,7 @@ public class UniqueIntAfterKRemoval {
                 break; // Stop when k becomes zero
             }
         }
-        // Print the size of the updated frequency map
+        // Print the size of the updated frequency map.
         return frequencyMap.size();   // ab jitne element bachgye sab unique he h
     }
 }
