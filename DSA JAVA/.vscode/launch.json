@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UniqueIntAfterKRemoval",
+            "request": "launch",
+            "mainClass": "LeetGFG.UniqueIntAfterKRemoval",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "SortingHashmap",
             "request": "launch",
             "mainClass": "HashSet.SortingHashmap",
