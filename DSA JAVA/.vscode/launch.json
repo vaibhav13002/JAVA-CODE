@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FurthestBuilding",
+            "request": "launch",
+            "mainClass": "LeetGFG.FurthestBuilding",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "UniqueIntAfterKRemoval",
             "request": "launch",
             "mainClass": "LeetGFG.UniqueIntAfterKRemoval",
