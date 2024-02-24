@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Array2D",
+            "request": "launch",
+            "mainClass": "LeetGFG.Array2D",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "SortChar",
             "request": "launch",
             "mainClass": "LeetGFG.SortChar",
