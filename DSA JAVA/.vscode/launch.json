@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubMatrixTopLeftSumLessK",
+            "request": "launch",
+            "mainClass": "LeetGFG.SubMatrixTopLeftSumLessK",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
+            "name": "DistributeArrayintoTwoArray",
+            "request": "launch",
+            "mainClass": "LeetGFG.DistributeArrayintoTwoArray",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "PlayWithOR",
             "request": "launch",
             "mainClass": "LeetGFG.PlayWithOR",
