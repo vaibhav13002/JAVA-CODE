@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortestUncommanString",
+            "request": "launch",
+            "mainClass": "LeetGFG.SortestUncommanString",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
+            "name": "MaximizeHappiness",
+            "request": "launch",
+            "mainClass": "LeetGFG.MaximizeHappiness",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
+            "name": "AppleInBox",
+            "request": "launch",
+            "mainClass": "LeetGFG.AppleInBox",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "SubMatrixTopLeftSumLessK",
             "request": "launch",
             "mainClass": "LeetGFG.SubMatrixTopLeftSumLessK",
