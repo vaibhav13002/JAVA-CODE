@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringInStringRepeat",
+            "request": "launch",
+            "mainClass": "LeetGFG.StringInStringRepeat",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
+            "name": "StringInStringRepeat",
+            "request": "launch",
+            "mainClass": "HashSet.StringInStringRepeat",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "SortestUncommanString",
             "request": "launch",
             "mainClass": "LeetGFG.SortestUncommanString",
