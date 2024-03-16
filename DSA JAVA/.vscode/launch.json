@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ContiguousArray",
+            "request": "launch",
+            "mainClass": "ContiguousArray",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
+            "name": "AddDaysToDate",
+            "request": "launch",
+            "mainClass": "LeetGFG.AddDaysToDate",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "StringInStringRepeat",
             "request": "launch",
             "mainClass": "LeetGFG.StringInStringRepeat",
