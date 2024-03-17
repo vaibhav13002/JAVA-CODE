@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubstringReverseInString",
+            "request": "launch",
+            "mainClass": "Contest.SubstringReverseInString",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "ContiguousArray",
             "request": "launch",
             "mainClass": "ContiguousArray",

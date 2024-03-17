@@ -12,7 +12,7 @@ public class SortChar {
         System.out.println(arr);
 
         //Converting char array bcak to string
-        String st= new String(arr);
+        String st= new String(arr);  // basically string is array of char 
         System.out.println(st);
     }
 }

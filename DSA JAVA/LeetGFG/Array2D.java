@@ -37,6 +37,7 @@ public class Array2D {
         result.add(currentInterval);
 
         // Convert List<int[]> to int[][]
+        @SuppressWarnings("unused")
         int[][] mergedArray = new int[result.size()][2];
         // for (int i = 0; i < result.size(); i++) {
         // mergedArray[i] = result.get(i);

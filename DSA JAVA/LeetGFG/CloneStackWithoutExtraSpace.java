@@ -27,3 +27,4 @@ public class CloneStackWithoutExtraSpace {
        cloned.push(t);
     }
 }
+// for loop ya while loop ue krtey tho extra space use hota since we need tho declare space to store inside function 

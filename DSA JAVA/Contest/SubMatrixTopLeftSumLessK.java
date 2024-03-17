@@ -1,4 +1,4 @@
-package LeetGFG;
+package Contest;
 //Weekly Contest 387
 public class SubMatrixTopLeftSumLessK {
     public static void main(String[] args) {
