@@ -10,16 +10,17 @@ public class hashmap {
         map.put("China", 150);
         map.put("USA", 50);
         map.put("US", 30);
-        map.entrySet();
+        // map.entrySet();
 
-        System.out.println(map);
+        // System.out.println(map);
 
-        System.out.println(map.containsKey("China"));
-        System.out.println(map.get("China"));
-        System.out.println(map.get("japan"));
+        // System.out.println(map.containsKey("China"));
+        // System.out.println(map.get("China"));
+        // System.out.println(map.get("japan"));
 
         for(Map.Entry<String,Integer> e : map.entrySet()){
-            System.out.print(e.getKey());
+            // System.out.println(e);
+            // System.out.println(e.getKey());
             System.out.println(" "+e.getValue());
         }
     }

@@ -16,6 +16,7 @@ public class SortingHashmap {
         hm.put(17, "Arun");
         hm.put(15, "Swarit");
         hm.put(9, "Neelesh");
+
         Iterator<Integer> it = hm.keySet().iterator();
         System.out.println("Before Sorting");
         while (it.hasNext()) {
@@ -29,7 +30,7 @@ public class SortingHashmap {
         Map<Integer, String> map = new HashMap<Integer, String>();
         System.out.println("After Sorting");
         // using TreeMap constructor to sort the HashMap
-        TreeMap<Integer, String> tm = new TreeMap<Integer, String>(hm);
+        TreeMap<Integer, String> tm = new TreeMap<Integer, String>(hm); // This constructor copies all the mappings from the given Map (in this case, hm) to the TreeMap.
         Iterator itr = tm.keySet().iterator();
         while (itr.hasNext()) {
             int key = (int) itr.next();
@@ -37,3 +38,7 @@ public class SortingHashmap {
         }
     }
 }
+
+// iterator(): This method returns an iterator over the elements in the set of keys. An iterator allows you to iterate over the elements of a collection sequentially, one by one.
+
+// TreeMap is used in Java when you need a map implementation that maintains the keys in sorted order.
