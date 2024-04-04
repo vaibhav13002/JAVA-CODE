@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PatternPrint",
+            "request": "launch",
+            "mainClass": "Zeus.PatternPrint",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
+            "name": "StaticBlock",
+            "request": "launch",
+            "mainClass": "Zeus.StaticBlock",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
+            "name": "GettersSetters",
+            "request": "launch",
+            "mainClass": "Zeus.GettersSetters",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubarrayEqualToSum",
+            "request": "launch",
+            "mainClass": "Zeus.LongestSubarrayEqualToSum",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "SubstringReverseInString",
             "request": "launch",
             "mainClass": "Contest.SubstringReverseInString",

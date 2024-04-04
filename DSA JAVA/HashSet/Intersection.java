@@ -2,21 +2,27 @@ package HashSet;
 
 import java.util.*;
 
+
 public class Intersection {
-    public static int Inter(int[] arr1, int[] arr2){
+    public static String Inter(int[] arr1, int[] arr2){
         HashSet<Integer> map=new HashSet<>();
+        ArrayList<Integer> list = new ArrayList<>();
         int count =0;
         for(int i=0;i<arr1.length;i++){
             map.add(arr1[i]);
+            
         }
         for(int j=0;j<arr2.length;j++){
             if(map.contains(arr2[j])){
             count++;
+            list.add(arr2[j]);
             map.remove(arr2[j]);
             }
         }
+        
 
-        return count;
+        return count +" & " + list;
+
     }
     public static void main(String[] args) {
         int arr1[]={1,2,3};
