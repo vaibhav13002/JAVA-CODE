@@ -6,12 +6,12 @@ public class LongestSubarrayEqualToSum {
     public static void main(String[] args) {
         int[] arr = { 5, 8, 7, 3, 2, 2, 1 };
         int x = 15;
-        // int result = maxLengthConsecutiveSum(arr, x);
-        int result = BruteForceN2(arr, x);
+        int result = maxLengthConsecutiveSum(arr, x);
+        // int result = BruteForceN2(arr, x);
         System.out.println(result);
     }
 
-    public static int maxLengthConsecutiveSum(int[] arr, int x) {
+    public static int maxLengthConsecutiveSum(int[] arr, int x) { // time complexity O(N)
         int maxLength = 0;
         int currentSum = 0;
         HashMap<Integer, Integer> sumIndices = new HashMap<>();
@@ -42,7 +42,7 @@ public class LongestSubarrayEqualToSum {
                     sum += nums[k];
                 }
                 if (sum == target) {
-                    maxLen = Math.max(maxLen, j - i + 1);
+                    maxLen = Math.max(maxLen, j - i + 1); // +1  coz 0 based indexing
                 }
             }
         }

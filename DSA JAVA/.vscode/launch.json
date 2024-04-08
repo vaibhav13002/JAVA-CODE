@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SetRowColZero",
+            "request": "launch",
+            "mainClass": "Zeus.SetRowColZero",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
+            "name": "BinaryReverse",
+            "request": "launch",
+            "mainClass": "Zeus.BinaryReverse",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
+            "name": "RotateClockwise90",
+            "request": "launch",
+            "mainClass": "Zeus.RotateClockwise90",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "PatternPrint",
             "request": "launch",
             "mainClass": "Zeus.PatternPrint",
