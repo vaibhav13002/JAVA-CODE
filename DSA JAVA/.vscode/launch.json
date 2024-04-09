@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NAryTreeDepth",
+            "request": "launch",
+            "mainClass": "Zeus.NAryTreeDepth",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "SetRowColZero",
             "request": "launch",
             "mainClass": "Zeus.SetRowColZero",
