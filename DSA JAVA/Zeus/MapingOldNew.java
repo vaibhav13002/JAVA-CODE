@@ -6,11 +6,3 @@ public class MapingOldNew {
     }
 }
 
-Struct{
-    char *oldName;
-    char *newName;
-};
-
-void ChangeToNew(
-    char *input
-)

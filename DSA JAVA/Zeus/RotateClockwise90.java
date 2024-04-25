@@ -35,7 +35,5 @@ public class RotateClockwise90 {
                 matrix[i][n - 1 - j] = temp;
             }
         }
-    }
-
-    
+    } 
 }
