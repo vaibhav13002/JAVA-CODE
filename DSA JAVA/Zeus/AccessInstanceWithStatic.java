@@ -7,12 +7,12 @@ public class AccessInstanceWithStatic {
 
     static void staticMethod() { // Static method
         // Create an instance of MyClass to access instance variables and methods
-        AccessInstanceWithStatic  obj = new AccessInstanceWithStatic ();
+        AccessInstanceWithStatic obj = new AccessInstanceWithStatic();
         System.out.println("Static method called. Accessing instance variable: " + obj.instanceVar);
         obj.instanceMethod(); // Accessing instance method
     }
+
     public static void main(String[] args) {
         AccessInstanceWithStatic.staticMethod();
     }
 }
-    
