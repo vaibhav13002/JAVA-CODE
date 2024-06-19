@@ -24,7 +24,7 @@ public class LongestSubarrayEqualToSum {
                 maxLength = Math.max(maxLength, i - sumIndices.get(currentSum - x));
             }
 
-            if (!sumIndices.containsKey(currentSum)) {
+            if (!sumIndices.containsKey(currentSum)) { //else condition me bhi daal sktey h
                 sumIndices.put(currentSum, i);
             }
         }
