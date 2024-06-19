@@ -17,14 +17,15 @@ public class ValidAnagram {
         }
         System.out.println(arr);
         for (int j = 0; j < t.length(); j++) {
-            if (arr.contains(t.charAt(j))) {
-                arr.remove(j);
-                System.out.println(arr);
+            char c = t.charAt(j);
+            if (arr.contains(c)) {
+                arr.remove(Character.valueOf(c));
             } else {
                 return false;
             }
+
         }
         return true;
-
     }
 }
+
