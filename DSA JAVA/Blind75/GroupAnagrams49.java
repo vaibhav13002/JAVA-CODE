@@ -50,3 +50,13 @@ public class GroupAnagrams49 {
 //  put that arraylist corresponding sorted group of String; (sorted usi ka ha)
 
 //  at last we need to fetch hashmap (map.keySet()) and add the values of the each corresponding key in an arraylist of our ans and return it
+
+
+
+// Time complexity:
+// O(NKlogK)
+// N - number of strs,
+// K - length of max String
+
+// Space complexity:
+// O(NK)O(NK)O(NK)
