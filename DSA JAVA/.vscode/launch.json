@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ProductOfArrayExceptSelf238",
+            "request": "launch",
+            "mainClass": "Blind75.ProductOfArrayExceptSelf238",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "NAryTreeDepth",
             "request": "launch",
             "mainClass": "Zeus.NAryTreeDepth",
