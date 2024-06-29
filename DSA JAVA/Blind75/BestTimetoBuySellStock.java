@@ -3,7 +3,9 @@ package Blind75;
 public class BestTimetoBuySellStock {
     public static void main(String[] args) {
         int[] prices = {2,1,4};
-        System.out.println(maxProfit(prices));
+        // System.out.println(maxProfit(prices));
+        BestTimetoBuySellStock obj = new BestTimetoBuySellStock();  // accessing non static method
+        System.out.println(obj.maxProfit1(prices));
     }
     public static int maxProfit(int[] prices) { //time limit excedded
         int maxDifference = 0;
@@ -20,7 +22,7 @@ public class BestTimetoBuySellStock {
         return maxDifference;
     }
 
-    public static int maxProfit1(int[] prices) {
+    public int maxProfit1(int[] prices) {
         if (prices == null || prices.length == 0) {
             return 0;
         }
