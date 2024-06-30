@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PassingArgument",
+            "request": "launch",
+            "mainClass": "IB.PassingArgument",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "BestTimetoBuySellStock",
             "request": "launch",
             "mainClass": "Blind75.BestTimetoBuySellStock",
