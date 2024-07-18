@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxProfit",
+            "request": "launch",
+            "mainClass": "IB.MaxProfit",
+            "projectName": "DSA JAVA_16d22bcc"
+        },
+        {
+            "type": "java",
             "name": "PassingArgument",
             "request": "launch",
             "mainClass": "IB.PassingArgument",
