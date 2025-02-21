@@ -74,3 +74,8 @@ public class ValidAnagram242 {
         return true;
     }
 }
+
+
+
+//🔹 Use s.charAt(i) when you want a specific character from a string.
+// 🔹 Use String.valueOf(i) when you need to convert a number, char, or object to a string.
