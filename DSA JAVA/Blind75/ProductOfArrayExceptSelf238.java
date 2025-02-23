@@ -21,7 +21,7 @@ public class ProductOfArrayExceptSelf238 {
         return ans;
     }
 
-    public static int[] productExceptSelf1(int[] nums) { // fails when number is zero
+    public static int[] productExceptSelf1(int[] nums) { 
         int[] ans = new int[nums.length];
         int NetMul = 1;
         for (int i = 0; i < nums.length; i++) {
