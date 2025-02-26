@@ -3,7 +3,7 @@ package ArrayList;
 public class RemoveElement2pt {
     public static void main(String[] args) {
         int[] nums={3,2,2,3,4};
-        int value=4;
+        int value=2;
         System.out.println(Remove(nums, value));
     }
     public static int Remove(int[] nums, int value){
@@ -16,8 +16,6 @@ public class RemoveElement2pt {
             if(nums[i]!=value){
                 count++;
                 // i++;
-            }else{
-                i++;
             }
         }
         return count;
