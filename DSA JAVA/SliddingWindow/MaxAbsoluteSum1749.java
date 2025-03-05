@@ -1,4 +1,4 @@
-package PractiseFeb25.ArrayPractF25;
+package SliddingWindow;
 
 public class MaxAbsoluteSum1749 {
     public static void main(String[] args) {
