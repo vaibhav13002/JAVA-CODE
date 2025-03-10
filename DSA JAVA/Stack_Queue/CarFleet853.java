@@ -9,6 +9,7 @@ public class CarFleet853 {
         int[] speed = {2,4,1,1,3};
         System.out.println(WrongSolution(target, position, speed));
     }
+    ///// Wrong solution
     public static int WrongSolution(int target , int[] position, int[] speed){
         HashMap<Integer,Integer> map = new HashMap<>();
 
