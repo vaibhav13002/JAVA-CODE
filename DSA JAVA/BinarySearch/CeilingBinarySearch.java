@@ -1,9 +1,10 @@
 package BinarySearch;
 public class CeilingBinarySearch {
     public static void main(String[] args) {
-        int[] arr={-4,1,2,13,32,45,56,65,71,78,79,88,95};
+        int[] arr={-4,1,28,58,95};
+
         System.out.println(arr.length);
-        int target=80;
+        int target=60;
         int ans=binarysearch(arr, target);
         System.out.println(ans);   
     }
@@ -26,6 +27,7 @@ public class CeilingBinarySearch {
                 return mid; 
             }
         }
-        return arr[start];   //yaha loop break ho rha h jab loop ekdum chota ho jarha h mtlb start and end ek jagah pint kr rhe h just uske baad dono 
+        return arr[start];   //yaha loop break ho rha h jab loop ekdum chota ho jarha h mtlb start and end ek jagah point kr rhe h just uske baad dono 
     }                        //interchange ho rhe h so start target se just ek bada no. pr ja kr rukk rha h vahi tho chayeh hume
+                            // And End Target se ek small no. pr ruk rha h, (Floor of the Target)
 }

@@ -1,8 +1,8 @@
 package BinarySearch;
 public class FloorBinarySearch {
     public static void main(String[] args) {
-        int[] arr={-4,1,2,78,79,88,95};
-        int target=-2;
+        int[] arr={1,3,5,6};
+        int target=7;
         int ans=binarysearch(arr, target);
         System.out.println(ans);   
     }
@@ -27,6 +27,6 @@ public class FloorBinarySearch {
                 return mid; 
             }
         }
-        return arr[end];  //end=mid - 1
+        return start;  //end=mid - 1
     }
 }
