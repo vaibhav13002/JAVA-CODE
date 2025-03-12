@@ -21,8 +21,7 @@ public class SmallestNoInRotatedArrayBST {
             else{
                 ans=Math.min(ans,nums[end]);
                 end=mid-1;
-        }
-
+        }   
     }
     return ans;
 }
