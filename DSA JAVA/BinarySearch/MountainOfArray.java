@@ -11,8 +11,8 @@ public class MountainOfArray {
             if(arr[mid]>arr[mid+1]){  //You Are in Decreasing side
                 end=mid;
             }
-            else{ //YOu are in Increasing Side
-                start=mid +1;
+            else{ //YOu are in Increasing Side  arr[mid] < arr[mid+1]
+                start=mid +1; // because we know mid +1 element is grater than mid
             }
         }
         //return start;

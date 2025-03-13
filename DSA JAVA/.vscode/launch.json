@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MountainOfArray",
+            "request": "launch",
+            "mainClass": "BinarySearch.MountainOfArray",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
+            "name": "SubstringContainingAllChar1358",
+            "request": "launch",
+            "mainClass": "SliddingWindow.SubstringContainingAllChar1358",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
+            "name": "InfiniteArray",
+            "request": "launch",
+            "mainClass": "BinarySearch.InfiniteArray",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
             "name": "MaxProfit",
             "request": "launch",
             "mainClass": "IB.MaxProfit",
