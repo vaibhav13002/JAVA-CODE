@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OrderAgnosticBS",
+            "request": "launch",
+            "mainClass": "BinarySearch.OrderAgnosticBS",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
+            "name": "FindInMountainArray1095",
+            "request": "launch",
+            "mainClass": "BinarySearch.FindInMountainArray1095",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
             "name": "MountainOfArray",
             "request": "launch",
             "mainClass": "BinarySearch.MountainOfArray",
