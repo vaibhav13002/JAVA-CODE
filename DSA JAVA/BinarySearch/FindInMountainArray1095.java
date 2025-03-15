@@ -15,7 +15,6 @@ public class FindInMountainArray1095 {
         }else{
             System.out.println(ans2);
         }
-
     }
     public static int findPeak(int[] arr, int start, int end){
         while(start<end){

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SearchInRotatedArrayBST",
+            "request": "launch",
+            "mainClass": "BinarySearch.SearchInRotatedArrayBST",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
+            "name": "MaxCandiesToKChild2226",
+            "request": "launch",
+            "mainClass": "BinarySearch.MaxCandiesToKChild2226",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
             "name": "OrderAgnosticBS",
             "request": "launch",
             "mainClass": "BinarySearch.OrderAgnosticBS",
