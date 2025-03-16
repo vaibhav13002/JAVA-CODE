@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LeftRotationCount",
+            "request": "launch",
+            "mainClass": "BinarySearch.LeftRotationCount",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
+            "name": "FindRotationCountBS",
+            "request": "launch",
+            "mainClass": "BinarySearch.FindRotationCountBS",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
             "name": "SearchInRotatedArrayBST",
             "request": "launch",
             "mainClass": "BinarySearch.SearchInRotatedArrayBST",
