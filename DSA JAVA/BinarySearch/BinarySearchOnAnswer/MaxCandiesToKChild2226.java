@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.BinarySearchOnAnswer;
 
 public class MaxCandiesToKChild2226 {
     public static void main(String[] args) {
