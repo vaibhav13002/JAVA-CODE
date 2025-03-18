@@ -2,8 +2,8 @@ package BinarySearch.BinarySearchOnAnswer;
 
 public class MaxCandiesToKChild2226 {
     public static void main(String[] args) {
-        int[] candies = {4,7,5};
-        int k = 4;
+        int[] candies = {30,11,23,4,20};
+        int k = 5;
         System.out.println(maximumCandies(candies, k));
     }
     public static int maximumCandies(int[] candies, long k) {

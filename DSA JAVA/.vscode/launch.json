@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KokoEatingBanana875",
+            "request": "launch",
+            "mainClass": "BinarySearch.BinarySearchOnAnswer.KokoEatingBanana875",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
+            "name": "MaxCandiesToKChild2226",
+            "request": "launch",
+            "mainClass": "BinarySearch.BinarySearchOnAnswer.MaxCandiesToKChild2226",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
             "name": "CapacityToShippackage1011",
             "request": "launch",
             "mainClass": "BinarySearch.BinarySearchOnAnswer.CapacityToShippackage1011",
