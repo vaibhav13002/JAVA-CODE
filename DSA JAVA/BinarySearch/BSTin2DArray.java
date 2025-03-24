@@ -13,7 +13,8 @@ public class BSTin2DArray {
     }
     static int [] Search(int[][] matrix,int target){
         int row=0;
-        int col=matrix.length-1;
+        // int col=matrix.length-1;
+        int col = matrix[0].length-1;  // this would also work
         // System.out.println(matrix.length);
 
         while (row<matrix.length && col>=0) {
