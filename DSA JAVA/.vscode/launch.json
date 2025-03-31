@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BasicLinked",
+            "request": "launch",
+            "mainClass": "Linked_List.BasicLinked",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
             "name": "BSTin2DArray",
             "request": "launch",
             "mainClass": "BinarySearch.BSTin2DArray",

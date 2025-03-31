@@ -47,8 +47,8 @@ public class KokoEatingBanana875 {
         while (low <= high) {
             int mid = low + (high - low) / 2;
             int timeTaken = function(piles, mid);
-            if (timeTaken <= h) {
-                high = mid - 1;
+            if (timeTaken <= h) {  //this is potential answer but we have to find the smaller value
+                high = mid - 1;   
             } else {
                 low = mid + 1;
             }
@@ -56,7 +56,7 @@ public class KokoEatingBanana875 {
         return low;
     }
 
-    public static int function(int[] arr, int pile) {
+    public static int function(int[] arr, int pile) {  // pile == mid
         int total = 0;
         for (int i = 0; i < arr.length; i++) {
             total += Math.ceil((double) (arr[i]) / (double) (pile));
