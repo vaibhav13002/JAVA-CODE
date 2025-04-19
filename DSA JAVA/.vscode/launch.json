@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LL_Implementation",
+            "request": "launch",
+            "mainClass": "Linked_List.LL_Implementation",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
+            "name": "MergeLL",
+            "request": "launch",
+            "mainClass": "HashSet.MergeLL",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
+            "name": "basicSet",
+            "request": "launch",
+            "mainClass": "HashSet.basicSet",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
+            "name": "MergeLL",
+            "request": "launch",
+            "mainClass": "Linked_List.MergeLL",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
             "name": "BasicLinked",
             "request": "launch",
             "mainClass": "Linked_List.BasicLinked",

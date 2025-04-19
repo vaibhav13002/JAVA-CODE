@@ -9,13 +9,13 @@ public class BasicLinked {
         this.size = 0; // initial size will be 0
     }
 
-    class Node {
+    class Node {   // Node ko banane ke liye node class banaya humne, tabhi nichey we are creating the object of type node
         String data;
         Node next; // each node will point to next node
         // Default Construstor
 
         Node(String data) {
-            this.data = data; // value passed as an argument
+            this.data = data; // value passed as an argument  //"Take the value given in the parameter and store it in the object's variable."
             this.next = null; // each new node you will create will point to null //yeh call hoga jab bhi naya node create hoga
     
             size++;
@@ -39,7 +39,7 @@ public class BasicLinked {
         if (head == null) {
             head = newNode;
             return;
-        }
+        } 
         Node currNode = head;
         while (currNode.next != null) {
             currNode = currNode.next; // soo jabtk hum last node pr nhi pahuchengey tab tk iterate hota rhega next
@@ -70,8 +70,8 @@ public class BasicLinked {
             head = null;
             return;
         }
-        Node SecondLast = head;
-        Node lastNode = head.next;
+        Node SecondLast = head;  //  1 2 3 4 5
+        Node lastNode = head.next; 
         while (lastNode.next != null) {
             lastNode = lastNode.next;
             SecondLast = SecondLast.next;
@@ -99,7 +99,7 @@ public class BasicLinked {
 
     public static void main(String[] args) {
         BasicLinked list = new BasicLinked();
-        list.addFirst("a");
+        list.addFirst("a");   
         list.addFirst("is");
         list.PrintList();
 
