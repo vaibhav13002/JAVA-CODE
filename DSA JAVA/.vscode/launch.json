@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestSubstringWithoutRepeatingChar",
+            "request": "launch",
+            "mainClass": "SliddingWindow.LongestSubstringWithoutRepeatingChar",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
+            "name": "ReverseWordInString",
+            "request": "launch",
+            "mainClass": "Stringg.ReverseWordInString",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
+            "name": "ReorderList143",
+            "request": "launch",
+            "mainClass": "Linked_List.ReorderList143",
+            "projectName": "DSA JAVA_59aa2366"
+        },
+        {
+            "type": "java",
             "name": "LL_Implementation",
             "request": "launch",
             "mainClass": "Linked_List.LL_Implementation",

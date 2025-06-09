@@ -103,3 +103,5 @@ public static ListNode mergeTwoListNode(ListNode list1 ,ListNode list2){
     return pointer.next;
   }
 }
+
+// at the start we have 2 pointer node (pointer and ans, and is used to build the linked list which will be moving while forming the linked list but the pointer node will still be pointing at the start and of our linked list the first node will be at pointer.next basically that will be our head,
