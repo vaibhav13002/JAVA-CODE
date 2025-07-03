@@ -1,0 +1,10 @@
+Calculating Next character of a Char:- (char) ('a' + ((ch - 'a') + 1) % 26)
+
+ch - 'a': Gives 0 for 'a', 1 for 'b', ..., 25 for 'z'
++ 1: Shift to next character
+% 26: To wrap around 'z' → 'a'
+'a' + ...: Convert back to character
+(char): Final conversion to character
+
+
+Another solution is with Bit manipulation, counting number of 1s
